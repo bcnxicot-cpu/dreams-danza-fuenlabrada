@@ -6,6 +6,7 @@ const display = Archivo_Black({ weight: "400", subsets: ["latin"], variable: "--
 const body = Manrope({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dreams-danza-fuenlabrada.vercel.app"),
   title: "Dreams | Danza y teatro musical en Fuenlabrada",
   description: "Danza, teatro musical y producciones escénicas en Fuenlabrada. Pregunta por los grupos y prueba una clase en Dreams.",
   openGraph: {
