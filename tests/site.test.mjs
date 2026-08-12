@@ -20,7 +20,7 @@ test("all navigation targets exist", () => {
 test("mobile typography and overflow safeguards are present", () => {
   assert.match(css, /overflow-x:\s*hidden/);
   assert.match(css, /@media \(max-width: 700px\)/);
-  assert.match(css, /font-size:\s*clamp\(52px, 15\.5vw, 70px\)/);
+  assert.match(css, /font-size:\s*clamp\(45px, 13\.6vw, 62px\)/);
 });
 
 test("claims and image provenance are conservative", () => {

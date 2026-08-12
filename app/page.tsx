@@ -40,7 +40,11 @@ export default function Home() {
       <section className="hero" id="inicio">
         <div className="hero-copy">
           <p className="eyebrow">Danza + teatro musical · Fuenlabrada</p>
-          <h1>NO VIENES<br />A QUEDARTE<br /><span>QUIETO.</span></h1>
+          <h1>
+            <span className="hero-line">MUÉVETE.</span>
+            <span className="hero-line">INTERPRETA.</span>
+            <span className="hero-line hero-accent">EN ESCENA.</span>
+          </h1>
           <div className="hero-bottom">
             <p>Un lugar para entrenar, interpretar y descubrir lo que pasa cuando se abre el telón.</p>
             <a className="button button-light" href={whatsapp} target="_blank" rel="noreferrer">Quiero probar <ArrowIcon /></a>
@@ -64,8 +68,8 @@ export default function Home() {
       <section className="paths" id="probar">
         <div className="section-kicker"><span>01</span> Por dónde empezar</div>
         <div className="paths-intro">
-          <h2>NO TIENES QUE<br />SABERLO TODO.<br /><em>TIENES QUE EMPEZAR.</em></h2>
-          <p>Cuéntales qué te apetece probar y te orientarán hacia el grupo que mejor encaje contigo.</p>
+          <h2>ELIGE CÓMO<br /><em>QUIERES EMPEZAR.</em></h2>
+          <p>No necesitas experiencia ni tenerlo decidido. Cuéntales qué te apetece probar y te orientarán hacia el grupo que mejor encaje contigo.</p>
         </div>
         <div className="path-list">
           {paths.map((item) => (
