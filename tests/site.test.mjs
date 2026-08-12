@@ -28,3 +28,10 @@ test("claims and image provenance are conservative", () => {
   assert.match(page, /Foto: Mario Cubo/);
   assert.doesNotMatch(page, /€|euros|precio/);
 });
+
+test("final copy is specific and old generic claims are gone", () => {
+  assert.match(page, /DEL AULA<br \/>AL TEATRO/);
+  assert.match(page, /ENCUENTRA<br \/>TU GRUPO/);
+  assert.match(page, /No es solo entrenar o ensayar/);
+  assert.doesNotMatch(page, /DREAMS NACIÓ|EL ESCENARIO<br \/>PUEDE EMPEZAR|pasos o texto/);
+});
