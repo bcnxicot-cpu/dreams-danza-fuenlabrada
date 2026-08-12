@@ -101,7 +101,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <p className="season-note">No es solo aprender pasos o texto. Es construir algo juntos y llevarlo hasta el escenario.</p>
+        <p className="season-note">No es solo entrenar o ensayar. Es construir algo juntos y llevarlo hasta el escenario.</p>
       </section>
 
       <section className="proof">
@@ -116,9 +116,9 @@ export default function Home() {
 
       <section className="founder">
         <div className="founder-copy">
-          <p className="section-kicker light"><span>04</span> Una escuela que se mueve</p>
-          <h2>DREAMS NACIÓ<br />PARA HACER<br /><em>QUE PASEN COSAS.</em></h2>
-          <p>Alba Durán ha convertido una idea emprendedora en una escuela presente en galas, certámenes y producciones de Fuenlabrada.</p>
+          <p className="section-kicker light"><span>04</span> Del ensayo a la función</p>
+          <h2>DEL AULA<br />AL TEATRO.<br /><em>DE VERDAD.</em></h2>
+          <p>Con Alba Durán al frente, Dreams convierte el trabajo de cada curso en galas, certámenes y producciones que pisan escenarios de Fuenlabrada.</p>
         </div>
         <div className="founder-image">
           <Image src="/images/fin-curso.jpg" alt="Gala de fin de curso de Dreams" fill sizes="(max-width: 760px) 100vw, 48vw" />
@@ -128,7 +128,7 @@ export default function Home() {
 
       <section className="contact" id="contacto">
         <p className="section-kicker"><span>05</span> Tu primer paso</p>
-        <h2>EL ESCENARIO<br />PUEDE EMPEZAR<br /><em>HOY.</em></h2>
+        <h2>ENCUENTRA<br />TU GRUPO.<br /><em>PRUEBA UNA CLASE.</em></h2>
         <p className="contact-lead">Pregunta por los grupos actuales y encuentra tu sitio en Dreams.</p>
         <div className="contact-actions">
           <a className="button button-dark" href={whatsapp} target="_blank" rel="noreferrer">Escribir por WhatsApp <ArrowIcon /></a>
